@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
   <Project Path="Quartz.Sample.Api/Quartz.Sample.Api.csproj" />
   <Project Path="Quartz.Sample.AppHost/Quartz.Sample.AppHost.csproj" />
   <Project Path="Quartz.Sample.Jobs/Quartz.Sample.Jobs.csproj" Id="d6dde689-8e37-41c1-8bd1-7711e2a1cfe4" />
