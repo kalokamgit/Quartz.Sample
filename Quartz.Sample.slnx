@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Quartz.Sample.Api/Quartz.Sample.Api.csproj" />
+  <Project Path="Quartz.Sample.AppHost/Quartz.Sample.AppHost.csproj" />
+  <Project Path="Quartz.Sample.Jobs/Quartz.Sample.Jobs.csproj" Id="d6dde689-8e37-41c1-8bd1-7711e2a1cfe4" />
+  <Project Path="Quartz.Sample.Runner/Quartz.Sample.Runner.csproj" Id="7ec90c94-6dcb-46e4-90b6-940ab95c0b50" />
+  <Project Path="Quartz.Sample.ServiceDefaults/Quartz.Sample.ServiceDefaults.csproj" Id="4109f84d-89dc-49b0-83d9-d1e677cf9b0f" />
+</Solution>

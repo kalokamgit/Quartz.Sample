@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="13.0.1" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>907e93ec-e213-4e0a-bd17-f4e8baedb5a8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="13.0.1" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="13.0.1" />
+    <PackageReference Include="Scalar.Aspire" Version="0.7.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quartz.Sample.Api\Quartz.Sample.Api.csproj" />
+    <ProjectReference Include="..\Quartz.Sample.Runner\Quartz.Sample.Runner.csproj" />
+  </ItemGroup>
+
+</Project>
